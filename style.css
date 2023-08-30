@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato&family=Open+Sans&family=Pacifico&family=Poppins:wght@500&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#main{
+    /* background-color: aqua; */
+    height: 95vh;
+    width: 900px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+header h1{
+    margin-left: 20px;
+    font-size: 2.2em;
+}
+header img{
+    width: 7em;
+    cursor: pointer;
+}
+span{
+    color: darkblue;
+}
+#info{
+    background-color: darkblue;
+    color: white;
+    padding: 7px;
+    border-radius: 25px;
+    height: 60px;
+}
+#info h1{
+    font-size: 2em;
+    text-align: center;
+}
+#search{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.inputcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#input{
+    border: none;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    width:430px;
+}
+.srchLogo{
+    position: absolute;
+    right: 5px;
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input::placeholder {
+    color: rgb(84, 82, 82);
+    font-size: 20px;
+    text-align: center;
+}
+.srchBtn{
+    width: 120px;
+    margin-left: 20px;
+    padding: 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+#table{
+    width: 870px;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.cardContent{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 40px;
+    color: white;
+    justify-content: space-between;
+}
+
+.card{
+    width: 500px;
+    margin-left: 40px;
+}
+.card h3{
+    line-height: 30px;
+}
+
+.card2{
+    margin-left: 100px;
+}
+.card3{
+    margin-left: 100px;
+}
+.active{
+    background-color: lightblue;
+}
